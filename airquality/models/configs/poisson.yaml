@@ -1,0 +1,12 @@
+backend:
+  id: poisson
+  alpha: 0.
+  fit_intercept: False
+  solver: newton-cholesky
+optimizer:
+  id: base
+feature_library:
+  id: polynomial_library
+  polynomial_degree: 1
+  include_bias: True
+  include_interaction: True

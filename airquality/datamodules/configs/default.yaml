@@ -1,0 +1,39 @@
+data_load_config:
+  data_dir: /Users/jcolen/Documents/chkd_toy_problem/data/
+  patient_df: Toy Project Outgoing.csv
+  air_df: ''
+  weather_df: zcta_daily_weather.csv
+  covid_df: covid_lab_testing.csv
+  zcta_df: Hampton_Roads_ZCTA_Populations/Hampton_Roads_ZCTA_Populations.shp
+  svi_df: Virginia_SVI_ZCTA_2022.csv
+  coi_df: COI_ZipCode/data.csv
+
+preprocessing_config:
+  ICD10_code: J45
+  aggregate: daily
+  rolling: False
+  lag: 0
+  fill_zeros: True
+  threshold: 100
+
+exog:
+  - NO2
+  - SO2
+  - CO
+  - PM25
+  - PM10
+  - SVI_overall_perc
+  - AverageDryBulbTemperature
+  - AverageRelativeHumidity
+  - TotalPrecipitation
+  - log_covid
+endog: visits
+dummies:
+  - dayofweek
+  - monthofyear
+offset: population
+date_column: date_delta
+scale_exog: False
+center_exog: False
+drop_first: True
+

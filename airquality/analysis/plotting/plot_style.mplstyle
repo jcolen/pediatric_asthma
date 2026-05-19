@@ -1,0 +1,8 @@
+font.size : 10
+font.family : Arial
+
+axes.grid : True
+xtick.direction : in
+ytick.direction : in
+
+legend.framealpha : 0

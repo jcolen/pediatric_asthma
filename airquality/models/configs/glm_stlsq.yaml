@@ -1,0 +1,13 @@
+backend:
+  id: glm
+  scale: dev
+optimizer:
+  id: stlsq
+  threshold: 7.5
+  normalize_columns: True
+  max_iter: 20
+feature_library:
+  id: polynomial_library
+  polynomial_degree: 2
+  include_bias: True
+  include_interaction: True

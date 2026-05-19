@@ -1,0 +1,67 @@
+# For plotting purposes, this file containts human-readable
+# labels for each exposure variable present in the dataset. 
+
+# Air Quality
+NO2: NO$_2$ (ppb)
+SO2: SO$_2$ (ppb)
+CO: CO (ppm)
+O3: O$_3$ (ppm)
+PM25: PM$_{2.5}$ ($\mu$g/m$^3$)
+PM10: PM$_{10}$ ($\mu$g/m$^3$)
+Smoke: Smoke
+AQI: AQI
+
+# Weather
+HeatIndex: Heat Index ($^{\circ}$C)
+TotalPrecipitation: Precipitation (mm)
+AverageDryBulbTemperature: Temperature ($^{\circ}$C)
+AverageRelativeHumidity: Relative Humidity (%)
+
+# COI components
+COI_overall_perc: COI (%)
+COI_education_perc: COI Education (%)
+COI_health_env_perc: COI Health/Environment (%)
+COI_socioeco_perc: COI Socioeconomic (%)
+
+# SVI components
+SVI_overall_perc: SVI (%)
+SVI_socioeco_perc: SVI Socioeconomic (%)
+EP_POV150: Poverty (%)
+EP_UNEMP: Unemployed (%)
+EP_HBURD: Housing Burden (%)
+EP_NOHSDP: No HS Diploma (%)
+EP_UNINSUR: Uninsured (%)
+EPL_POV150: Poverty (%)
+EPL_UNEMP: Unemployed (%)
+EPL_HBURD: Housing Burden (%)
+EPL_NOHSDP: No HS Diploma (%)
+EPL_UNINSUR: Uninsured (%)
+
+SVI_household_perc: SVI Household (%)
+EP_AGE65: Age $\geq$ 65 (%)
+EP_AGE17: Age $\leq$ 17 (%)
+EP_DISABL: Disability (%)
+EP_SNGPNT: Single-parent (%)
+EP_LIMENG: Limited English (%)
+EPL_AGE65: Age $\geq$ 65 (%)
+EPL_AGE17: Age $\leq$ 17 (%)
+EPL_DISABL: Disability (%)
+EPL_SNGPNT: Single-parent (%)
+EPL_LIMENG: Limited English (%)
+
+SVI_racial_ethnic_perc: SVI Minority (%)
+EP_MINRTY: Minority pop. (%)
+EPL_MINRTY: Minority pop. (%)
+
+SVI_housing_perc: SVI Housing (%)
+EP_MUNIT: Multi-unit homes (%)
+EP_MOBILE: Mobile homes (%)
+EP_CROWD: Crowded homes (%)
+EP_NOVEH: No-vehicle homes (%)
+EP_GROUPQ: Group quarters (%)
+EPL_MUNIT: Multi-unit homes (%)
+EPL_MOBILE: Mobile homes (%)
+EPL_CROWD: Crowded homes (%)
+EPL_NOVEH: No-vehicle homes (%)
+EPL_GROUPQ: Group quarters (%)
+

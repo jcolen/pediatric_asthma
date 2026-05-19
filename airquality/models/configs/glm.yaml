@@ -1,0 +1,10 @@
+backend:
+  id: glm
+  scale: dev
+optimizer:
+  id: base
+feature_library:
+  id: polynomial_library
+  polynomial_degree: 1
+  include_bias: True
+  include_interaction: True
